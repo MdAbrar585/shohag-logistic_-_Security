@@ -1,0 +1,84 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10000;
+    background-color: blue;
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.heading-jumbotron {
+    padding: 5px 20px;
+    background-color: #355C7D;
+}
+.heading-info {
+	float: left;
+	width: 100%;
+	padding: 22px 0 0;
+	text-align: center;
+}
+
+ul.social {
+    width: auto;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+ul.social li {
+    float: left;
+    margin: 3px 3px 5px 0;
+    list-style: none;
+}
+ul.social li a {
+	float: left;
+	width: 30px;
+	height: 30px;
+	border: 2px solid #ddd;
+	text-align: center;
+	padding-top: 5px;
+	color: #ddd;
+	font-size: 16px;
+	border-radius: 50%;
+	transition: 1s;
+}
+ul.social li a:hover{
+    background: #fff;
+    border: 2px solid #fff;
+    color: tomato;
+    transform: rotate(360deg);
+    box-shadow: 2px 2px 24px #fff;
+}
+
+.top-mobile {
+	color: #fff;
+	font-size: 18px;
+	top: 4px;
+	left: 0;
+}
+.heading-number {
+	float: left;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    margin-right: 12px;
+}
+.menu-body{
+    background-color: darkcyan;
+}
+
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 80px ;
+}
