@@ -143,3 +143,43 @@ ul.social li a:hover{
 	list-style: none;
 	list-style-image: url(../img/hand-right.png);
 }
+
+.copyright {
+    background-color: #083b60 !important;
+    color: #fff;
+}
+.page-footer{
+    color: white;
+}
+.page-footer h2 {
+    font-size: 20px;
+}
+.page-footer hr {
+	margin-top: 0;
+	margin-bottom: 5px;
+	border: 0;
+	border-top: 2px solid #fdcc09;
+}
+.page-footer ul, .content-message ul {
+	padding-left: 24px;
+	list-style: none;
+	list-style-image: url(../img/hand-right.png);
+}
+.webFacebook {
+	background-color: #fff;
+	border-radius: 10px;
+}
+.content-message {
+	width: 100%;
+	margin-top: 10px;
+	border: 1px solid #eee;
+	box-shadow: 0 0 7px 0px #ddd;
+	padding: 7px 12px;
+	text-align: justify;
+	overflow: auto;
+    margin-bottom: 10px;
+    height: 215px;
+}
+.qr-code{
+    text-align: center;
+}
