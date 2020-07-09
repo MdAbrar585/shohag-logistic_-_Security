@@ -1,3 +1,9 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
 header {
     position: fixed;
     top: 0;
@@ -81,4 +87,59 @@ ul.social li a:hover{
     width: 100%;
     overflow: hidden;
     margin-top: 80px ;
+}
+
+.msg-body {
+	margin-bottom: 10px;
+}
+.msg-body h2 {
+	color: #fff;
+	border-left: 5px solid #fdcc09;
+	background: #006fb7;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin: 10px 0;
+	padding: 13px 5px 8px 10px;
+	font-size: 22px;
+}
+.msg-content {
+	width: 100%;
+	margin-top: 10px;
+	border: 1px solid #eee;
+	box-shadow: 0 0 7px 0px #ddd;
+	padding: 7px 12px;
+	text-align: justify;
+	overflow: auto;
+	margin-bottom: 10px;
+}
+.msg-image {
+    height: 180px;
+    width: 160px;
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+.msg-content-sidebar h2 {
+	color: #fff;
+	border-left: 5px solid #fdcc09;
+	background: #006fb7;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin: 10px 0;
+	padding: 13px 5px 8px 10px;
+	font-size: 22px;
+}
+.msg-content-sidebar .txt-style {
+	width: 100%;
+	margin-top: 10px;
+	border: 1px solid #eee;
+	box-shadow: 0 0 7px 0px #ddd;
+	padding: 7px 12px;
+	text-align: justify;
+	overflow: auto;
+	margin-bottom: 10px;
+}
+.msg-content-sidebar .txt-style ul {
+	list-style: none;
+	list-style-image: url(../img/hand-right.png);
 }
