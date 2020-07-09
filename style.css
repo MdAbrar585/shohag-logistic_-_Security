@@ -141,7 +141,7 @@ ul.social li a:hover{
 }
 .msg-content-sidebar .txt-style ul {
 	list-style: none;
-	list-style-image: url(../img/hand-right.png);
+	list-style-image: url(./img/hand-right.png);
 }
 
 .copyright {
@@ -163,7 +163,7 @@ ul.social li a:hover{
 .page-footer ul, .content-message ul {
 	padding-left: 24px;
 	list-style: none;
-	list-style-image: url(../img/hand-right.png);
+	list-style-image: url(./img/hand-right.png);
 }
 .webFacebook {
 	background-color: #fff;
