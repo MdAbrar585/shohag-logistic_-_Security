@@ -204,25 +204,16 @@ ul.social li a:hover{
 	text-align: justify;
 	overflow: auto;
     margin-bottom: 10px;
-    height: 215px;
+    
 }
 .qr-code{
     text-align: center;
 }
 
-.profile{
+.margin-top{
     margin-top: 210px;
 }
-.profile h2{
-    color: #fff;
-    border-left: 5px solid #fdcc09;
-    background: #355C7D;
-    text-transform: uppercase;
-    font-weight: 700;
-    margin: 10px 0;
-    padding: 13px 5px 8px 10px;
-    font-size: 22px;
-}
+
 .profile-content-message {
 	width: 100%;
 	margin-top: 10px;
@@ -253,4 +244,38 @@ ul.social li a:hover{
     border: 2px solid #333;
     color: #333;
 
+}
+.office i{
+    color: #feCC07;
+    font-size: 15px;
+}
+
+.heading h2 {
+	color: #fff;
+	border-left: 5px solid #fdcc09;
+	background: #355C7D;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin: 10px 0;
+	padding: 13px 5px 8px 10px;
+	font-size: 22px;
+}
+.service{
+    margin-bottom:80px 0 80px;
+}
+.service-content ul{
+    padding-left: 24px;
+	list-style: none;
+	list-style-image: url(./img/hand-right.png);
+}
+.service a{
+    color: #000;
+    margin-bottom: 5px;
+}
+.service a:hover{
+    text-decoration: none;
+    color: #feCC07;
+}
+.service ul li{
+    margin-bottom: 5px;
 }
