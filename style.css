@@ -1,9 +1,13 @@
+/* body */
+
 body {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
 }
+
+/* header section */
 header {
     position: fixed;
     top: 0;
@@ -11,33 +15,23 @@ header {
     width: 100%;
     z-index: 10000;
 }
-.navbar-nav li a:hover {
-    background-color: aquamarine !important;
-}
-.navbar-light .navbar-toggler {
-	color: rgba(0,0,0,.5);
-	border-color: rgba(0,0,0,.1);
-}
-.navbar {
-	padding:0;
-}
-
-.container-fluid {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.heading-jumbotron {
-    padding: 5px 20px;
-    background-color: #355C7D;
-}
 .heading-info {
 	float: left;
 	width: 100%;
 	padding: 22px 0 0;
 	text-align: center;
+}
+.heading-number {
+    float: left;
+    cursor: pointer;
+}
+.heading-number span{
+    color: #fff;
+    font-size: 15px;
+    transition: .5s;
+}
+.heading-number span:hover{
+    font-size: 16px;
 }
 
 ul.social {
@@ -70,6 +64,8 @@ ul.social li a:hover{
     transform: rotate(360deg);
     box-shadow: 2px 2px 24px #fff;
 }
+
+
 .mobile-no i{
     color: #feCC07;
     font-size: 20px;
@@ -80,28 +76,55 @@ ul.social li a:hover{
 	top: 4px;
 	left: 0;
 }
-.heading-number {
-    float: left;
-    cursor: pointer;
+/* nav section */
+.navbar-nav li a:hover {
+    background-color: aquamarine !important;
 }
-.heading-number span{
-    color: #fff;
-    font-size: 15px;
-    transition: .5s;
+.navbar-light .navbar-toggler {
+	color: rgba(0,0,0,.5);
+	border-color: rgba(0,0,0,.1);
 }
-.heading-number span:hover{
-    font-size: 16px;
+.navbar {
+	padding:0;
 }
-
 .navbar-light .navbar-nav .nav-link {
     color: white;
     margin-right: 12px;
 }
+
+/******* common css *******/
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.heading-jumbotron {
+    padding: 5px 20px;
+    background-color: #355C7D;
+}
+.margin-top{
+    margin-top: 210px;
+}
+.heading h2 {
+	color: #fff;
+	border-left: 5px solid #fdcc09;
+	background: #355C7D;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin: 10px 0;
+	padding: 13px 5px 8px 10px;
+	font-size: 22px;
+}
+
+/******* end of common css *******/
+
+/* menu section */
 .menu-body{
     background-color: darkcyan;
 }
 
-
+/* carousel section */
 .carousel-inner {
     position: relative;
     width: 100%;
@@ -109,6 +132,7 @@ ul.social li a:hover{
     margin-top: 72px ;
 }
 
+/* Home body section */
 .msg-body {
 	margin-bottom: 10px;
 }
@@ -164,10 +188,8 @@ ul.social li a:hover{
 	list-style-image: url(./img/hand-right.png);
 }
 
-.copyright {
-    background-color: #083b60 !important;
-    color: #fff;
-}
+/* footer section */
+
 .page-footer{
     color: white;
 }
@@ -214,11 +236,13 @@ ul.social li a:hover{
 .qr-code{
     text-align: center;
 }
-
-.margin-top{
-    margin-top: 210px;
+.copyright {
+    background-color: #083b60 !important;
+    color: #fff;
 }
 
+
+/* profile section */
 .profile-content-message {
 	width: 100%;
 	margin-top: 10px;
@@ -250,21 +274,14 @@ ul.social li a:hover{
     color: #333;
 
 }
+
+/* office section */
 .office i{
     color: #feCC07;
     font-size: 15px;
 }
 
-.heading h2 {
-	color: #fff;
-	border-left: 5px solid #fdcc09;
-	background: #355C7D;
-	text-transform: uppercase;
-	font-weight: 700;
-	margin: 10px 0;
-	padding: 13px 5px 8px 10px;
-	font-size: 22px;
-}
+/* service section */
 .service{
     margin-bottom:80px 0 80px;
 }
@@ -285,6 +302,7 @@ ul.social li a:hover{
     margin-bottom: 5px;
 }
 
+/* technical section */
 .technical-content{
     padding-left: 24px;
 	list-style: none;
@@ -332,6 +350,7 @@ ul.social li a:hover{
 	height: auto;
 }
 
+/* career section */
 .career-content{
     padding-left: 24px;
 	list-style: none;
@@ -347,6 +366,8 @@ ul.social li a:hover{
 	margin-top: 10px;
 }
 
+/* contact section */
+
 .form-label{
 	display: block;
 	font-weight: 700;
@@ -360,6 +381,9 @@ ul.social li a:hover{
 	color: red;
 	font-weight: 400;
 }
+
+/* certificate section */
+
 .certification > .content-message {
     width: 24%;
     float: right;
@@ -372,6 +396,8 @@ ul.social li a:hover{
 	height: 100%;
 }
 
+
+/* gallery section */
 
 .gallery-overview {
 	margin-top: 40px;
@@ -418,7 +444,9 @@ ul.social li a:hover{
 	margin: 20px 0;
 	border-radius: 4px;
 }
-.blog-paginationn {
+
+/* blog section */
+.blog-pagination {
 	clear: both;
 	margin: 10px 0 0;
 	display: inline-block;
@@ -432,6 +460,6 @@ ul.blog-page-nav {
 }
 ul.blog-page-nav li {
 	display: inline-block;
-	float: left;
+	/* float: left; */
 	margin: 0 3px 0 0;
 }
